@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    font-family: var(--font-jetbrainsMono), monospace;
+    background-color: #0f172a; /* Dark background color */
+    color: #e0e7ff; /* Light text color */
+  }
+}
